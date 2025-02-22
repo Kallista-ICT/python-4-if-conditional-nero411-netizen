@@ -13,4 +13,4 @@ elif generationinput < 2013:
 else:
     Generation = "Generation Alpha"
 
-print(f"You belong to: {Generation}")   
+print(f"You belong to: {Generation}")
