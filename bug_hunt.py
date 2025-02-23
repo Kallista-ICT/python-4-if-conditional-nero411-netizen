@@ -2,7 +2,7 @@
 user_grade = int(input("Enter your grade: ")) 
 
 # Determine the grade symbol based on the user's input  
-if user_grade >= 90:  # Check if the grade is 90 or above  
+if 90 < user_grade <= 100 :  # Check if the grade is 90 or above  
     category_name = "A"  
 elif 80 < user_grade <= 90:  # Check if the grade is 80 or above  
     category_name = "B"  
